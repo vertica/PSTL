@@ -41,4 +41,4 @@ mvn -DskipTests clean install -Passembly-rpm
 The generated RPM will be located under `pstl-assembly-rpm/target/rpm/pstl-assembly-rpm_2.11/RPMS/noarch/`. Installing the RPM is as simple as `rpm -ivh /path/to/rpm`. Uninstalling the RPM is as simple as `rpm -e pstl-assembly_2.11`. By default the RPM will install to `/usr/share/pstl`.
 
 ## Documentation
-Please read the [documentation](Home) here.
+Please read the [documentation](https://github.com/vertica/PSTL/wiki/Home) here.

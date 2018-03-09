@@ -1,5 +1,27 @@
 # PSTL
 
+One of the main hurdles has been the inability to ingest and transform large amounts of data from multiple sources
+in real time. While most organizations employ data analysts and scientists, the reality is that they spend most of their
+time—up to 80%, according to some generally accepted estimates—in data
+preparation: collecting data sets and cleaning and organizing data.
+
+Micro Focus Parallel Streaming Transformation Loader (PSTL) from Micro Focus Vertica Professional Services is a Big Data solution that dramatically reduces both the time and latency involved in real time data collection, loading, and transformation. 
+
+To know more about PSTL click [here](http://files.asset.microfocus.com/3484/en/3484.pdf)
+
+# Features
+
+* A Spark application with out-of-thebox integration from Kafka to Vertica and Hadoop; integration to other data systems via no-code configurations
+* No-ETL, no-ELT, no-code required SQL streaming solution
+* Single set of semantics for multiple sinks (Vertica, Kafka, Hive Tables, Opentsdb, or Spark Datasets)
+* Out-of-the-box support for Confluent Kafka Sources
+* Processes semi-structured JSON, Avro, Protobuf, Delimited, and CSV data into optimized data at rest
+* Advanced job management of Spark Streaming Jobs
+* A no-code approach for Change Data Capture, Slowly Changing Dimensions, Streaming Table Mappings, from external JDBC connectors
+* • A simple extensibility model for data validation and transformations 
+
+#
+
 # Building
 
 ## Prerequisites

@@ -18,9 +18,11 @@ To know more about PSTL click [here](http://files.asset.microfocus.com/3484/en/3
 * Processes semi-structured JSON, Avro, Protobuf, Delimited, and CSV data into optimized data at rest
 * Advanced job management of Spark Streaming Jobs
 * A no-code approach for Change Data Capture, Slowly Changing Dimensions, Streaming Table Mappings, from external JDBC connectors
-* • A simple extensibility model for data validation and transformations 
+* A simple extensibility model for data validation and transformations 
 
-#
+# Contributing
+
+If you are interested in fixing issues and contributing directly to the code base, please see the document [How to Contribute](https://github.com/vertica/PSTL/wiki/How-To-Contribute). 
 
 # Building
 

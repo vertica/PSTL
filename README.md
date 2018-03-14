@@ -5,7 +5,7 @@ in real time. While most organizations employ data analysts and scientists, the 
 time—up to 80%, according to some generally accepted estimates—in data
 preparation: collecting data sets and cleaning and organizing data.
 
-Parallel Streaming Transformation Loader (PSTL) from Vertica Professional Services is a Big Data solution that dramatically reduces both the time and latency involved in real time data collection, loading, and transformation. 
+**Parallel Streaming Transformation Loader (PSTL)** from Vertica Professional Services is a Big Data solution that dramatically reduces both the time and latency involved in real time data collection, loading, and transformation. 
 
 To know more about PSTL click [here](http://files.asset.microfocus.com/3484/en/3484.pdf)
 

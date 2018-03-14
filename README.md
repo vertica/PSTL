@@ -66,3 +66,8 @@ The generated RPM will be located under  `pstl-assembly-rpm/target/rpm/pstl-asse
 
 ## Documentation
 Please read the documentation [here](https://github.com/vertica/PSTL/wiki/Home) .
+
+## Contact
+
+To contact us please e-mail to [this](bigdatainfo@microfocus.com) address.
+

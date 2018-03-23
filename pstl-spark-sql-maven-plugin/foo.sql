@@ -1,0 +1,3 @@
+CREATE STREAM foo FROM KAFKA OPTIONS('kafka.bootstrap.servers'='localhost:9092');
+CREATE TEMPORARY VIEW blah;
+SAVE STREAM foo TO VERTICA;

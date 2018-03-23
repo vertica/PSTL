@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+        (c) Copyright [2018] Micro Focus or one of its affiliates.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+ -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.microfocus.pstl</groupId>
+    <artifactId>pstl-parent_2.11</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+  <name>pstl-assembly-rpm</name>
+  <artifactId>pstl-assembly-rpm_2.11</artifactId>
+  <packaging>rpm</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>pstl_${scala.binary.version}</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>pstl-spark-sql-avro_${scala.binary.version}</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>pstl-spark-sql-kafka_${scala.binary.version}</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>pstl-spark-sql-protobuf_${scala.binary.version}</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>pstl-spark-sql-vertica_${scala.binary.version}</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+  </dependencies>
+  <properties>
+    <rpm.home>/usr/share/pstl</rpm.home>
+  </properties>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>rpm-maven-plugin</artifactId>
+        <extensions>true</extensions>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>rpm</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <needarch>noarch</needarch>
+          <targetOS>linux</targetOS>
+          <license>PROPRIETARY</license>
+          <group>Application/Collectors</group>
+          <defaultUsername>root</defaultUsername>
+          <defaultGroupname>root</defaultGroupname>
+          <mappings>
+            <mapping>
+              <directory>${rpm.home}/bin</directory>
+              <filemode>755</filemode>
+              <directoryIncluded>true</directoryIncluded>
+              <sources>
+                <source>
+                  <location>${project.basedir}/bin</location>
+                </source>
+              </sources>
+            </mapping>
+            <mapping>
+              <directory>/usr/bin</directory>
+              <filemode>755</filemode>
+              <sources>
+                <softlinkSource>
+                  <location>${rpm.home}/bin/pstl</location>
+                </softlinkSource>
+              </sources>
+            </mapping>
+            <mapping>
+              <directory>${rpm.home}/conf</directory>
+              <filemode>755</filemode>
+            </mapping>
+            <mapping>
+              <directory>${rpm.home}/conf</directory>
+              <directoryIncluded>false</directoryIncluded>
+              <configuration>noreplace</configuration>
+              <filemode>644</filemode>
+              <sources>
+                <source>
+                  <location>${project.basedir}/conf</location>
+                </source>
+              </sources>
+            </mapping>
+            <mapping>
+              <directory>/etc/pstl</directory>
+              <sources>
+                <softlinkSource>
+                  <location>${rpm.home}/conf</location>
+                </softlinkSource>
+              </sources>
+            </mapping>
+            <mapping>
+              <directory>${rpm.home}/lib</directory>
+              <filemode>755</filemode>
+            </mapping>
+            <mapping>
+              <directory>${rpm.home}/lib</directory>
+              <directoryIncluded>false</directoryIncluded>
+              <filemode>644</filemode>
+              <dependency>
+                <excludes>
+                  <exclude>com.microfocus:pstl-assembly_${scala.binary.version}:${project.version}</exclude>
+                  <exclude>com.microfocus:pstl-assembly-rpm_${scala.binary.version}:${project.version}</exclude>
+                </excludes>
+              </dependency>
+            </mapping>
+            <mapping>
+              <directory>${rpm.home}/conf/spark_files</directory>
+            </mapping>
+            <mapping>
+              <directory>${rpm.home}/conf/spark_jars</directory>
+            </mapping>
+          </mappings>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

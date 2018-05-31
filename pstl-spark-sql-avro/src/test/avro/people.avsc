@@ -1,0 +1,27 @@
+{
+  "namespace": "com.microfocus.pstl.avro",
+  "name": "People",
+  "type": "record",
+  "fields": [
+    {
+      "name": "people",
+      "type": {
+        "type": "array",
+        "items": {
+          "name": "Person",
+          "type": "record",
+          "fields": [
+            {
+              "name": "name",
+              "type": "string"
+            },
+            {
+              "name": "age",
+              "type": "int"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

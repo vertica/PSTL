@@ -45,7 +45,7 @@ class PstlSparkListenerSuite extends SparkFunSuite
 
   test("spark listener test") {
 
-    spark.sql("CREATE TEMPORARY VIEW foo(value string) USING CSV OPTIONS('path'='/Users/medhabanda/tmp/csv-input')")
+    spark.sql("CREATE TEMPORARY VIEW foo(value string) USING CSV OPTIONS('path'='/tmp/ImageFileNameFlatten/')")
     val listener = new PstlSparkListener()
 
     val sc = spark.sparkContext

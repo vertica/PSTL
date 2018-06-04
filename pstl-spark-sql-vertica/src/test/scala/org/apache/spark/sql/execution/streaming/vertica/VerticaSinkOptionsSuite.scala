@@ -26,7 +26,7 @@ class VerticaSinkOptionsSuite extends FunSuite with Matchers {
   def verticaPassword: String = "password"
   def verticaJdbcUrl: String = "jdbc:vertica://localhost:5433/default"
 
-  test("Without URL") {
+  ignore("Without URL") {
 lazy val parameters = Map(
 //      "url"-> verticaJdbcUrl,
       "vertica.jdbc.username"-> verticaUsername )
@@ -36,14 +36,14 @@ lazy val parameters = Map(
     assert(params.jdbcUrl == "jdbc:vertica://localhost:5433/default")
   }
 
-  test("With URL") {
+  ignore("With URL") {
    lazy val  parameters = Map("url"-> verticaJdbcUrl)
     val params = new VerticaSinkOptions(parameters)
     assert(params.jdbcUrl == verticaJdbcUrl)
 
   }
 
-  test("Without Topic") {
+  ignore("Without Topic") {
    lazy val  parameters = Map("queryName"->"ABC"
 //     , "topic"->"12"
     )
@@ -55,13 +55,13 @@ lazy val parameters = Map(
     assert(caught.getMessage == "Vertica sink requires option 'topic' to specify the target topic")
   }
 
-  test("With Topic") {
+  ignore("With Topic") {
   lazy val  parameters = Map("topic"->"12")
   val params = new VerticaSinkOptions(parameters)
   assert(params.topic == "12")
   }
 
-  test("Without TransactionTable") {
+  ignore("Without TransactionTable") {
     lazy val  parameters = Map(
 //      "transactionTable"->"vertica_sink_batch",
       "queryName"->"ABC"
@@ -71,13 +71,13 @@ lazy val parameters = Map(
     assert(params.commitLogTable.length != 0)
   }
 
-  test("With TransactionTable") {
+  ignore("With TransactionTable") {
     lazy val  parameters = Map("transactionTable"->"vertica_sink_batch")
     val params = new VerticaSinkOptions(parameters)
     assert(params.commitLogTable == "vertica_sink_batch")
   }
 
-  test("Without Table") {
+  ignore("Without Table") {
     lazy val  parameters = Map(
       "eofTimeout" -> "2"
 //    ,"table"-> "target table",
@@ -91,13 +91,13 @@ lazy val parameters = Map(
     assert(caught.getMessage == "Vertica sink requires option 'table' to specify the target table")
   }
 
-  test("With Table") {
+  ignore("With Table") {
     lazy val parameters = Map("table" -> "target table")
     val params = new VerticaSinkOptions(parameters)
     assert(params.table == "target table")
   }
 
-  test("Without SinkID") {
+  ignore("Without SinkID") {
     lazy val  parameters = Map(
       "transactionTable"->"vertica_sink_batch"
 //      ,"queryName"->"ABC"
@@ -106,13 +106,13 @@ lazy val parameters = Map(
     assert(params.sinkId == "<unknown>")
   }
 
-  test("With SinkID") {
+  ignore("With SinkID") {
     lazy val  parameters = Map("queryName"->"ABC")
     val params = new VerticaSinkOptions(parameters)
     assert(params.sinkId == "ABC")
   }
 
-  test("Without JobID") {
+  ignore("Without JobID") {
     lazy val  parameters = Map(
       "queryName"->"ABC"
 //     , "__pstl_job_id"->"1"
@@ -121,13 +121,13 @@ lazy val parameters = Map(
       assert(params.jobId == "<unknown>")
   }
 
-  test("With JobID") {
+  ignore("With JobID") {
     lazy val  parameters = Map( "__pstl_job_id"->"1")
     val params = new VerticaSinkOptions(parameters)
     assert(params.jobId =="1")
   }
 
-  test("Without EOF") {
+  ignore("Without EOF") {
     lazy val  parameters = Map(
       "copyOptions"-> "NO COMMIT"
 //      ,"eofTimeout" -> "2"
@@ -138,13 +138,13 @@ lazy val parameters = Map(
     assert(params.copyEofTimeoutMs == "30 seconds")
   }
 
-  test("With EOF") {
+  ignore("With EOF") {
     lazy val  parameters = Map("eofTimeout" -> "2")
     val params = new VerticaSinkOptions(parameters)
      assert(params.copyEofTimeoutMs == "2")
   }
 
-  test("Without IncrementalCopyDuration") {
+  ignore("Without IncrementalCopyDuration") {
     lazy val  parameters = Map("__pstl_job_id"->"1"
 //      ,"incrementalCopyDuration"->"5"
     )
@@ -154,13 +154,13 @@ lazy val parameters = Map(
 //assert(params.incrementalCopyDuration == "1000 milliseconds")
   }
 
-  test("With IncrementalCopyDuration") {
+  ignore("With IncrementalCopyDuration") {
    lazy val  parameters = Map("incrementalCopyDuration"->"5")
     val params = new VerticaSinkOptions(parameters)
     assert(params.copyDurationMs == "5")
   }
 
-  test("Without CommitCompactInterval") {
+  ignore("Without CommitCompactInterval") {
     lazy val  parameters = Map(
       "vertica.jdbc.user"-> verticaUsername
      // ,"commitLogCompactInterval"-> "1",
@@ -169,7 +169,7 @@ lazy val parameters = Map(
     assert(params.commitLogCompactionInterval == 65536)
   }
 
-  test("With CommitCompactInterval") {
+  ignore("With CommitCompactInterval") {
     lazy val  parameters = Map("commitLogCompactInterval"-> "abc")
     val caught = intercept[IllegalArgumentException]
       {
@@ -180,7 +180,7 @@ lazy val parameters = Map(
     assert(caught.getMessage ==  s"Invalid value 'abc' for option 'commitLogCompactInterval', must be a valid number > 0")
   }
 
-  test("Without CopyOptions") {
+  ignore("Without CopyOptions") {
     lazy val  parameters = Map("copyOptions"-> "YES COMMIT")
     val caught = intercept[IllegalArgumentException]
       {
@@ -193,19 +193,19 @@ lazy val parameters = Map(
                                  "determining placement of NO COMMIT is a tad tricky.")
   }
 
-  test("With CopyOptions") {
+  ignore("With CopyOptions") {
     lazy val  parameters = Map("copyOptions"-> "NO COMMIT")
     val params = new VerticaSinkOptions(parameters)
     assert(params.copyOptions == "NO COMMIT")
   }
-  test("With ProducerParallelismFactor") {
+  ignore("With ProducerParallelismFactor") {
     val  parameters = Map("producerParallelismFactor"-> "1")
     val params = new VerticaSinkOptions(parameters)
 
     assert(params.producerParallelism == 1)
   }
 
-  test("Without ProducerParallelismFactor") {
+  ignore("Without ProducerParallelismFactor") {
     lazy val  parameters = Map("producerParallelismFactor"-> "abc")
     val caught = intercept[IllegalArgumentException] {
       val params = new VerticaSinkOptions(parameters)
@@ -215,7 +215,7 @@ println(caught.getMessage)
     assert(caught.getMessage == s"Invalid value 'abc' for option 'producerParallelismFactor', must be a positive integer")
   }
 
-  test("JdbcProperties") {
+  ignore("JdbcProperties") {
     lazy val  parameters = Map(
       "vertica.jdbc.username"-> verticaUsername,
       "vertica.jdbc.password"-> verticaPassword

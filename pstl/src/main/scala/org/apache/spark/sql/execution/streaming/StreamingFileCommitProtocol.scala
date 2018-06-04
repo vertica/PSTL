@@ -70,16 +70,16 @@ class StreamingFileCommitProtocol(jobId: String, path: String)
   }
 
   // todo: spark-2.3.0+, not supported in spark-2.2.0
-//  private val queryId = SparkContext.getActive.flatMap { sc =>
-//    Option(sc.getLocalProperty(StreamExecution.QUERY_ID_KEY))
-//  }.getOrElse {
-//    throw new IllegalStateException(
-//      s"$this can only be used with structured streaming queries, " +
-//        s"expected to find local property '${StreamExecution.QUERY_ID_KEY}'")
-//  }
+  private val queryId = SparkContext.getActive.flatMap { sc =>
+    Option(sc.getLocalProperty(StreamExecution.QUERY_ID_KEY))
+  }.getOrElse {
+    throw new IllegalStateException(
+      s"$this can only be used with structured streaming queries, " +
+        s"expected to find local property '${StreamExecution.QUERY_ID_KEY}'")
+  }
 
-  private val queryId = throw new IllegalStateException(
-    s"$this can only be used with structured streaming queries in spark-2.3.0-SNAPSHOT+")
+//  private val queryId = throw new IllegalStateException(
+  //  s"$this can only be used with structured streaming queries in spark-2.3.0-SNAPSHOT+")
 
   @transient private var managedFiles: ArrayBuffer[ManagedFile] = _
 

@@ -81,7 +81,7 @@
     <slf4j.version>1.7.16</slf4j.version>
     <spark.version>2.3.0</spark.version>
     <spark.home>/usr/share/spark-${spark.version}</spark.home>
-    <antlr4.version>4.5.3</antlr4.version>
+    <antlr4.version>4.7</antlr4.version>
     <vertica.version>8.1.1.7</vertica.version>
     <CodeCacheSize>512m</CodeCacheSize>
     <test.exclude.tags></test.exclude.tags>

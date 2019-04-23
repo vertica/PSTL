@@ -51,9 +51,16 @@ class JobGuardian(daemonFactory: JobDaemonFactory,
       maybeShutdownCleanly()
   }
 
+  /* commented by RDS team for the Issue 3 opened by Chris in Vertica PSTL Github
   private def maybeShutdownCleanly(): Unit = {
     if(context.children.isEmpty) {
       context.stop(self)
+    }
+  }*/
+
+  private def maybeShutdownCleanly(): Unit = {
+    if(context.children.isEmpty) {
+      CoordinatedShutdown(context.system).run()
     }
   }
 }

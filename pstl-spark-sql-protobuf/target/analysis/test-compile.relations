@@ -1,0 +1,14 @@
+products:
+   pstl-spark-sql-protobuf/src/test/scala/org/apache/spark/sql/catalyst/expressions/FromProtobufExprSuite.scala -> pstl-spark-sql-protobuf/target/scala-2.11/test-classes/org/apache/spark/sql/catalyst/expressions/FromProtobufExprSuite.class
+binary dependencies:
+   pstl-spark-sql-protobuf/src/test/scala/org/apache/spark/sql/catalyst/expressions/FromProtobufExprSuite.scala -> /opt/mount1/softwares/maven/repo/org/apache/spark/spark-catalyst_2.11/2.3.0/spark-catalyst_2.11-2.3.0-tests.jar
+   pstl-spark-sql-protobuf/src/test/scala/org/apache/spark/sql/catalyst/expressions/FromProtobufExprSuite.scala -> /opt/mount1/softwares/maven/repo/org/apache/spark/spark-core_2.11/2.3.0/spark-core_2.11-2.3.0-tests.jar
+   pstl-spark-sql-protobuf/src/test/scala/org/apache/spark/sql/catalyst/expressions/FromProtobufExprSuite.scala -> /opt/mount1/softwares/maven/repo/org/apache/spark/spark-core_2.11/2.3.0/spark-core_2.11-2.3.0.jar
+   pstl-spark-sql-protobuf/src/test/scala/org/apache/spark/sql/catalyst/expressions/FromProtobufExprSuite.scala -> /opt/mount1/softwares/maven/repo/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar
+   pstl-spark-sql-protobuf/src/test/scala/org/apache/spark/sql/catalyst/expressions/FromProtobufExprSuite.scala -> /opt/mount1/softwares/maven/repo/org/scalactic/scalactic_2.11/3.0.3/scalactic_2.11-3.0.3.jar
+   pstl-spark-sql-protobuf/src/test/scala/org/apache/spark/sql/catalyst/expressions/FromProtobufExprSuite.scala -> /opt/mount1/softwares/maven/repo/org/scalatest/scalatest_2.11/3.0.3/scalatest_2.11-3.0.3.jar
+   pstl-spark-sql-protobuf/src/test/scala/org/apache/spark/sql/catalyst/expressions/FromProtobufExprSuite.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-8.b10.el7_5.x86_64/jre/lib/rt.jar
+source dependencies:
+external dependencies:
+class names:
+   pstl-spark-sql-protobuf/src/test/scala/org/apache/spark/sql/catalyst/expressions/FromProtobufExprSuite.scala -> org.apache.spark.sql.catalyst.expressions.FromProtobufExprSuite

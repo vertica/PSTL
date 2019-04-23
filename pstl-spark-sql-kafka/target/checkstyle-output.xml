@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-kafka/src/main/scala/org/apache/spark/sql/kafka010/package-info.java">
+</file>
+<file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-kafka/src/test/resources/log4j.properties">
+</file>
+</checkstyle>

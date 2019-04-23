@@ -1,7 +1,7 @@
 %define __jar_repack 0
 Name: pstl-assembly-rpm_2.11
 Version: 1.0.0
-Release: SNAPSHOT20190423082829
+Release: SNAPSHOT20190423085658
 Summary: pstl-assembly-rpm
 License: PROPRIETARY
 Group: Application/Collectors

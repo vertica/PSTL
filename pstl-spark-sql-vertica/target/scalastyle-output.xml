@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-vertica/src/main/scala/com/microfocus/pstl/vertica/AlterUserRole.scala">
+  <error column="3" line="15" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="error" message="Whitespace at end of line"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-vertica/src/main/scala/org/apache/spark/sql/execution/streaming/vertica/VerticaSink.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: org.apache.kafka.clients.consumer.KafkaConsumer"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-vertica/src/main/scala/com/microfocus/pstl/vertica/GrantRole.scala">
+  <error column="3" line="15" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="error" message="Whitespace at end of line"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-vertica/src/main/scala/com/microfocus/pstl/vertica/MigrationDownNotSupported.scala">
+  <error column="3" line="15" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="error" message="Whitespace at end of line"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-vertica/src/main/scala/org/apache/spark/sql/catalyst/expressions/VerticaHashExpr.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: com.vertica.jdbc.kv.VHash"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-vertica/src/main/scala/org/apache/spark/sql/execution/streaming/vertica/VerticaSinkProvider.scala">
+  <error column="3" line="15" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="error" message="Whitespace at end of line"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-vertica/src/main/scala/com/microfocus/pstl/vertica/CreateSchema.scala">
+  <error column="3" line="15" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="error" message="Whitespace at end of line"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-vertica/src/main/scala/org/apache/spark/sql/execution/streaming/vertica/KafkaWriteTask.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: org.apache.avro.SchemaBuilder"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-vertica/src/main/scala/com/microfocus/pstl/vertica/VerticaMigration.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: com.google.common.io.Resources"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-vertica/src/main/scala/com/microfocus/pstl/vertica/CreateUser.scala">
+  <error column="3" line="15" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="error" message="Whitespace at end of line"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-vertica/src/main/scala/com/microfocus/pstl/vertica/VerticaMigrationContext.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: com.hubspot.jinjava.Jinjava"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-vertica/src/main/scala/org/apache/spark/sql/execution/streaming/vertica/VerticaSinkLog.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: org.apache.avro.SchemaBuilder"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-vertica/src/main/scala/org/apache/spark/sql/vertica/VerticaFunctionRegistration.scala">
+  <error column="3" line="15" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="error" message="Whitespace at end of line"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-vertica/src/main/scala/org/apache/spark/sql/execution/streaming/vertica/KafkaWriter.scala">
+  <error column="3" line="14" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="error" message="Whitespace at end of line"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-vertica/src/main/scala/org/apache/spark/sql/execution/streaming/vertica/VerticaMetrics.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: io.prometheus.client."/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-vertica/src/main/scala/org/apache/spark/sql/execution/streaming/vertica/VerticaSQLConf.scala">
+  <error column="3" line="15" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="error" message="Whitespace at end of line"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-vertica/src/main/scala/com/microfocus/pstl/vertica/CreateTable.scala">
+  <error column="3" line="15" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="error" message="Whitespace at end of line"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-vertica/src/main/scala/org/apache/spark/sql/execution/streaming/vertica/VerticaCopyManager.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: org.apache.avro."/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-vertica/src/main/scala/org/apache/spark/sql/execution/streaming/vertica/VerticaSinkOptions.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: org.apache.kafka.clients.consumer.ConsumerConfig"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-vertica/src/main/scala/org/apache/spark/sql/execution/streaming/vertica/KafkaWriteStatus.scala">
+  <error column="3" line="15" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="error" message="Whitespace at end of line"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-vertica/src/main/scala/com/microfocus/pstl/vertica/TruncateTable.scala">
+  <error column="3" line="15" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="error" message="Whitespace at end of line"/>
+ </file>
+</checkstyle>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/protobuf/ProtobufSchemaConverter.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: com.google.protobuf."/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/FromProtobufExpr.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: com.google.protobuf.DynamicMessage"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/ProtobufExprUtils.scala">
+  <error column="3" line="15" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="error" message="Whitespace at end of line"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/ProtobufDeserializeFunction.scala">
+  <error column="3" line="15" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="error" message="Whitespace at end of line"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/protobuf/ProtobufFunctionRegistration.scala">
+  <error column="3" line="15" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="error" message="Whitespace at end of line"/>
+ </file>
+</checkstyle>

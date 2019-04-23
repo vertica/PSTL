@@ -1,0 +1,50 @@
+products:
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/FromProtobufExpr.scala -> pstl-spark-sql-protobuf/target/scala-2.11/classes/org/apache/spark/sql/catalyst/expressions/FromProtobufExpr$.class
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/FromProtobufExpr.scala -> pstl-spark-sql-protobuf/target/scala-2.11/classes/org/apache/spark/sql/catalyst/expressions/FromProtobufExpr.class
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/ProtobufDeserializeFunction.scala -> pstl-spark-sql-protobuf/target/scala-2.11/classes/org/apache/spark/sql/catalyst/expressions/ProtobufDeserializeFunction$.class
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/ProtobufDeserializeFunction.scala -> pstl-spark-sql-protobuf/target/scala-2.11/classes/org/apache/spark/sql/catalyst/expressions/ProtobufDeserializeFunction.class
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/ProtobufExprUtils.scala -> pstl-spark-sql-protobuf/target/scala-2.11/classes/org/apache/spark/sql/catalyst/expressions/ProtobufExprUtils$.class
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/ProtobufExprUtils.scala -> pstl-spark-sql-protobuf/target/scala-2.11/classes/org/apache/spark/sql/catalyst/expressions/ProtobufExprUtils.class
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/protobuf/ProtobufFunctionRegistration.scala -> pstl-spark-sql-protobuf/target/scala-2.11/classes/org/apache/spark/sql/protobuf/ProtobufFunctionRegistration.class
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/protobuf/ProtobufSchemaConverter.scala -> pstl-spark-sql-protobuf/target/scala-2.11/classes/org/apache/spark/sql/protobuf/ProtobufSchemaConverter$$typecreator1$1.class
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/protobuf/ProtobufSchemaConverter.scala -> pstl-spark-sql-protobuf/target/scala-2.11/classes/org/apache/spark/sql/protobuf/ProtobufSchemaConverter$$typecreator2$1.class
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/protobuf/ProtobufSchemaConverter.scala -> pstl-spark-sql-protobuf/target/scala-2.11/classes/org/apache/spark/sql/protobuf/ProtobufSchemaConverter$.class
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/protobuf/ProtobufSchemaConverter.scala -> pstl-spark-sql-protobuf/target/scala-2.11/classes/org/apache/spark/sql/protobuf/ProtobufSchemaConverter.class
+binary dependencies:
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/FromProtobufExpr.scala -> /opt/mount1/softwares/maven/repo/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/FromProtobufExpr.scala -> /opt/mount1/softwares/maven/repo/org/apache/spark/spark-catalyst_2.11/2.3.0/spark-catalyst_2.11-2.3.0.jar
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/FromProtobufExpr.scala -> /opt/mount1/softwares/maven/repo/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/FromProtobufExpr.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-8.b10.el7_5.x86_64/jre/lib/rt.jar
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/ProtobufDeserializeFunction.scala -> /opt/mount1/softwares/maven/repo/org/apache/spark/spark-catalyst_2.11/2.3.0/spark-catalyst_2.11-2.3.0.jar
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/ProtobufDeserializeFunction.scala -> /opt/mount1/softwares/maven/repo/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/ProtobufDeserializeFunction.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-8.b10.el7_5.x86_64/jre/lib/rt.jar
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/ProtobufExprUtils.scala -> /opt/mount1/softwares/maven/repo/org/apache/spark/spark-catalyst_2.11/2.3.0/spark-catalyst_2.11-2.3.0.jar
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/ProtobufExprUtils.scala -> /opt/mount1/softwares/maven/repo/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/ProtobufExprUtils.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-8.b10.el7_5.x86_64/jre/lib/rt.jar
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/protobuf/ProtobufFunctionRegistration.scala -> /opt/mount1/softwares/maven/repo/org/apache/spark/spark-catalyst_2.11/2.3.0/spark-catalyst_2.11-2.3.0.jar
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/protobuf/ProtobufFunctionRegistration.scala -> /opt/mount1/softwares/maven/repo/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/protobuf/ProtobufFunctionRegistration.scala -> pstl-spark-sql-core/target/pstl-spark-sql-core_2.11-1.0.0-SNAPSHOT.jar
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/protobuf/ProtobufFunctionRegistration.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-8.b10.el7_5.x86_64/jre/lib/rt.jar
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/protobuf/ProtobufSchemaConverter.scala -> /opt/mount1/softwares/maven/repo/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/protobuf/ProtobufSchemaConverter.scala -> /opt/mount1/softwares/maven/repo/org/apache/spark/spark-catalyst_2.11/2.3.0/spark-catalyst_2.11-2.3.0.jar
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/protobuf/ProtobufSchemaConverter.scala -> /opt/mount1/softwares/maven/repo/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/protobuf/ProtobufSchemaConverter.scala -> /opt/mount1/softwares/maven/repo/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/protobuf/ProtobufSchemaConverter.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-8.b10.el7_5.x86_64/jre/lib/rt.jar
+source dependencies:
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/FromProtobufExpr.scala -> pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/ProtobufExprUtils.scala
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/FromProtobufExpr.scala -> pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/protobuf/ProtobufSchemaConverter.scala
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/ProtobufDeserializeFunction.scala -> pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/FromProtobufExpr.scala
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/protobuf/ProtobufFunctionRegistration.scala -> pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/FromProtobufExpr.scala
+external dependencies:
+class names:
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/FromProtobufExpr.scala -> org.apache.spark.sql.catalyst.expressions.FromProtobufExpr
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/FromProtobufExpr.scala -> org.apache.spark.sql.catalyst.expressions.FromProtobufExpr$
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/ProtobufDeserializeFunction.scala -> org.apache.spark.sql.catalyst.expressions.ProtobufDeserializeFunction
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/ProtobufDeserializeFunction.scala -> org.apache.spark.sql.catalyst.expressions.ProtobufDeserializeFunction$
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/ProtobufExprUtils.scala -> org.apache.spark.sql.catalyst.expressions.ProtobufExprUtils
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/catalyst/expressions/ProtobufExprUtils.scala -> org.apache.spark.sql.catalyst.expressions.ProtobufExprUtils$
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/protobuf/ProtobufFunctionRegistration.scala -> org.apache.spark.sql.protobuf.ProtobufFunctionRegistration
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/protobuf/ProtobufSchemaConverter.scala -> org.apache.spark.sql.protobuf.ProtobufSchemaConverter
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/protobuf/ProtobufSchemaConverter.scala -> org.apache.spark.sql.protobuf.ProtobufSchemaConverter$
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/protobuf/ProtobufSchemaConverter.scala -> org.apache.spark.sql.protobuf.ProtobufSchemaConverter$$typecreator1$1
+   pstl-spark-sql-protobuf/src/main/scala/org/apache/spark/sql/protobuf/ProtobufSchemaConverter.scala -> org.apache.spark.sql.protobuf.ProtobufSchemaConverter$$typecreator2$1

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-avro/src/main/scala/org/apache/spark/sql/avro/AvroSchemaConverter.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: org.apache.avro.Schema.Type._"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-avro/src/main/scala/org/apache/spark/sql/catalyst/expressions/ToAvroExpr.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: org.apache.avro.SchemaBuilder"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-avro/src/main/scala/org/apache/spark/sql/avro/AvroFunctionRegistration.scala">
+  <error column="3" line="15" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="error" message="Whitespace at end of line"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-avro/src/main/scala/org/apache/spark/sql/catalyst/expressions/FromAvroExpr.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: org.apache.avro."/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-avro/src/main/scala/org/apache/spark/sql/catalyst/expressions/AvroUtils.scala">
+  <error column="3" line="15" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="error" message="Whitespace at end of line"/>
+ </file>
+</checkstyle>

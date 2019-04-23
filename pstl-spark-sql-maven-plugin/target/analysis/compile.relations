@@ -1,0 +1,18 @@
+products:
+   pstl-spark-sql-maven-plugin/src/main/java/com/microfocus/pstl/spark/sql/maven/plugin/ValidateJobMojo.java -> pstl-spark-sql-maven-plugin/target/scala-2.11/classes/com/microfocus/pstl/spark/sql/maven/plugin/ValidateJobMojo.class
+   pstl-spark-sql-maven-plugin/target/generated-sources/plugin/HelpMojo.java -> pstl-spark-sql-maven-plugin/target/scala-2.11/classes/HelpMojo.class
+binary dependencies:
+   pstl-spark-sql-maven-plugin/src/main/java/com/microfocus/pstl/spark/sql/maven/plugin/ValidateJobMojo.java -> /opt/mount1/softwares/maven/repo/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar
+   pstl-spark-sql-maven-plugin/src/main/java/com/microfocus/pstl/spark/sql/maven/plugin/ValidateJobMojo.java -> /opt/mount1/softwares/maven/repo/org/apache/spark/spark-catalyst_2.11/2.3.0/spark-catalyst_2.11-2.3.0.jar
+   pstl-spark-sql-maven-plugin/src/main/java/com/microfocus/pstl/spark/sql/maven/plugin/ValidateJobMojo.java -> /opt/mount1/softwares/maven/repo/org/apache/spark/spark-sql_2.11/2.3.0/spark-sql_2.11-2.3.0.jar
+   pstl-spark-sql-maven-plugin/src/main/java/com/microfocus/pstl/spark/sql/maven/plugin/ValidateJobMojo.java -> pstl/target/pstl_2.11-1.0.0-SNAPSHOT.jar
+   pstl-spark-sql-maven-plugin/src/main/java/com/microfocus/pstl/spark/sql/maven/plugin/ValidateJobMojo.java -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-8.b10.el7_5.x86_64/jre/lib/rt.jar
+   pstl-spark-sql-maven-plugin/target/generated-sources/plugin/HelpMojo.java -> /opt/mount1/softwares/maven/repo/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar
+   pstl-spark-sql-maven-plugin/target/generated-sources/plugin/HelpMojo.java -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.171-8.b10.el7_5.x86_64/jre/lib/rt.jar
+source dependencies:
+   pstl-spark-sql-maven-plugin/src/main/java/com/microfocus/pstl/spark/sql/maven/plugin/ValidateJobMojo.java -> pstl-spark-sql-maven-plugin/src/main/java/com/microfocus/pstl/spark/sql/maven/plugin/ValidateJobMojo.java
+   pstl-spark-sql-maven-plugin/target/generated-sources/plugin/HelpMojo.java -> pstl-spark-sql-maven-plugin/target/generated-sources/plugin/HelpMojo.java
+external dependencies:
+class names:
+   pstl-spark-sql-maven-plugin/src/main/java/com/microfocus/pstl/spark/sql/maven/plugin/ValidateJobMojo.java -> com.microfocus.pstl.spark.sql.maven.plugin.ValidateJobMojo
+   pstl-spark-sql-maven-plugin/target/generated-sources/plugin/HelpMojo.java -> HelpMojo

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl/src/main/scala/com/microfocus/pstl/metrics/DynamicHttpServer.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: io.prometheus.client.CollectorRegistry"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl/src/main/scala/org/apache/spark/sql/execution/datasources/CreateStreamFromCommand.scala">
+  <error column="0" line="25" source="org.scalastyle.scalariform.ImportOrderChecker" severity="error" message="org.apache.spark.sql. is in wrong order relative to org.apache.spark.sql.types.StructType."/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl/src/main/scala/com/microfocus/pstl/spark/SparkStreamingMetrics.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: io.prometheus.client."/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl/src/main/scala/com/microfocus/pstl/job/deploy/DeployOptions.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: joptsimple.OptionParser"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl/src/main/scala/org/apache/spark/sql/execution/datasources/SaveStreamToCommand.scala">
+  <error column="0" line="26" source="org.scalastyle.scalariform.ImportOrderChecker" severity="error" message="org.apache.spark.sql. is in wrong order relative to org.apache.spark.sql.streaming.Trigger."/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl/src/main/scala/com/microfocus/pstl/metrics/MetricsExtension.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: io.prometheus.client.hotspot.DefaultExports"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl/src/main/scala/com/microfocus/pstl/job/deploy/DeployMain.scala">
+  <error column="0" line="25" source="org.scalastyle.scalariform.ImportOrderChecker" severity="error" message="scala.concurrent.ExecutionContext.Implicits.global is in wrong order relative to scala.concurrent.duration.Duration."/>
+  <error column="0" line="27" source="org.scalastyle.scalariform.ImportOrderChecker" severity="error" message="There should at least one a single empty line separating groups scala and spark."/>
+  <error column="0" line="28" source="org.scalastyle.scalariform.ImportOrderChecker" severity="error" message="There should at least one a single empty line separating groups spark and pstl."/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl/src/main/scala/com/microfocus/pstl/utils/CommandLineUtils.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: joptsimple."/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl/src/main/scala/com/microfocus/pstl/metrics/MetricsSettings.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: com.typesafe.config.Config"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl/src/main/scala/com/microfocus/pstl/QueryDaemon.scala">
+  <error column="0" line="24" source="org.scalastyle.scalariform.ImportOrderChecker" severity="error" message="There should at least one a single empty line separating groups scala and akka."/>
+  <error column="0" line="25" source="org.scalastyle.scalariform.ImportOrderChecker" severity="error" message="There should at least one a single empty line separating groups akka and spark."/>
+  <error column="0" line="26" source="org.scalastyle.scalariform.ImportOrderChecker" severity="error" message="There should at least one a single empty line separating groups spark and pstl."/>
+  <error column="0" line="28" source="org.scalastyle.scalariform.ImportOrderChecker" severity="error" message="scala.util.control.NonFatal should be in group scala, not pstl."/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl/src/main/scala/org/apache/spark/sql/execution/streaming/StreamingFileCommitProtocol.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: org.apache.hadoop.fs._"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl/src/main/scala/org/apache/spark/metrics/sink/PrometheusMetricSink.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: com.codahale.metrics.MetricRegistry"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl/src/main/scala/com/microfocus/pstl/JobSettings.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: com.typesafe.config.Config"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl/src/main/scala/com/microfocus/pstl/QueryDaemonMetrics.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: io.prometheus.client."/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl/src/main/scala/com/microfocus/pstl/DriverOptions.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: joptsimple."/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl/src/main/scala/org/apache/spark/sql/execution/datasources/StopStreamCommand.scala">
+  <error column="0" line="20" source="org.scalastyle.scalariform.ImportOrderChecker" severity="error" message="org.apache.spark.sql. is in wrong order relative to org.apache.spark.sql.execution.command.RunnableCommand."/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl/src/main/scala/org/apache/spark/sql/catalyst/parser/pstl/AstBuilder.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: org.antlr.v4.runtime.tree."/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl/src/main/scala/com/microfocus/pstl/spark/SparkExtension.scala">
+  <error column="0" line="27" source="org.scalastyle.scalariform.ImportOrderChecker" severity="error" message="org.apache.spark.sql.catalyst.FunctionIdentifier is in wrong order relative to org.apache.spark.sql.catalyst.analysis.FunctionRegistration."/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl/src/main/scala/com/microfocus/pstl/job/deploy/package.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: org.slf4j.LoggerFactory"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl/src/main/scala/com/microfocus/pstl/Driver.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: com.typesafe.config.ConfigFactory"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl/src/main/scala/com/microfocus/pstl/JobGuardian.scala">
+  <error column="2" line="54" source="org.scalastyle.scalariform.SpaceAfterCommentStartChecker" severity="error" message="Insert a space after the start of the comment"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl/src/main/scala/org/apache/spark/sql/catalyst/parser/pstl/AbstractSqlParser.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: org.antlr.v4.runtime.atn.PredictionMode"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl/src/main/scala/com/microfocus/pstl/JobDaemonMetrics.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: io.prometheus.client.Gauge"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl/src/main/scala/com/microfocus/pstl/JobDaemon.scala">
+  <error column="0" line="20" source="org.scalastyle.scalariform.ImportOrderChecker" severity="error" message="akka.actor. is in wrong order relative to akka.actor.SupervisorStrategy.."/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl/src/main/scala/com/microfocus/pstl/spark/PstlSparkListener.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: com.fasterxml.jackson.databind.JavaType"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl/src/main/scala/org/apache/spark/sql/execution/datasources/ShowStreamsCommand.scala">
+  <error column="0" line="22" source="org.scalastyle.scalariform.ImportOrderChecker" severity="error" message="org.apache.spark.sql. is in wrong order relative to org.apache.spark.sql.types._."/>
+ </file>
+</checkstyle>

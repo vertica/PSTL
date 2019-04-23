@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-kafka/src/main/scala/org/apache/spark/sql/kafka010/ConsumerStrategy.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: org.apache.kafka.clients.consumer."/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-kafka/src/main/scala/org/apache/spark/sql/kafka010/KafkaRelation.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: org.apache.kafka.common.TopicPartition"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-kafka/src/main/scala/org/apache/spark/sql/kafka010/KafkaSourceOffset.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: org.apache.kafka.common.TopicPartition"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-kafka/src/main/scala/org/apache/spark/sql/kafka010/KafkaOffsetReader.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: org.apache.kafka.clients.consumer."/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-kafka/src/main/scala/org/apache/spark/sql/kafka010/CachedKafkaConsumer.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: org.apache.kafka.clients.consumer."/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-kafka/src/main/scala/org/apache/spark/sql/kafka010/KafkaSourceProvider.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: org.apache.kafka.clients.consumer.ConsumerConfig"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-kafka/src/main/scala/org/apache/spark/sql/kafka010/KafkaSourceRDD.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: org.apache.kafka.clients.consumer."/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-kafka/src/main/scala/org/apache/spark/sql/kafka010/KafkaWriteTask.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: org.apache.kafka.clients.producer."/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-kafka/src/main/scala/org/apache/spark/sql/kafka010/KafkaOffsetRangeLimit.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: org.apache.kafka.common.TopicPartition"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-kafka/src/main/scala/org/apache/spark/sql/kafka010/KafkaSource.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: org.apache.commons.io.IOUtils"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-kafka/src/main/scala/org/apache/spark/sql/kafka010/JsonUtils.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: org.apache.kafka.common.TopicPartition"/>
+ </file>
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-kafka/src/main/scala/org/apache/spark/sql/kafka010/CachedKafkaProducer.scala">
+  <error severity="error" message="FIXME: import statement does not match any group: com.google.common.cache._"/>
+ </file>
+</checkstyle>

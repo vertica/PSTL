@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/opt/mount1/softwares/pstl_github_vertica/clone/PSTL/pstl-spark-sql-core/src/main/scala/com/microfocus/pstl/jdbc/package.scala">
+  <error column="2" line="3" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="error" message="Whitespace at end of line"/>
+  <error column="2" line="7" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="error" message="Whitespace at end of line"/>
+  <error column="2" line="9" source="org.scalastyle.file.WhitespaceEndOfLineChecker" severity="error" message="Whitespace at end of line"/>
+ </file>
+</checkstyle>
